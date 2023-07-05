@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [SiteController::class, 'getHome'])->name('getHome');
+Route::get('/', [SiteController::class, 'getTemplate'])->name('getTemplate');
+Route::get('/home', [SiteController::class, 'getHome'])->name('getHome');
+Route::get('/about', [SiteController::class, 'getAbout'])->name('getAbout');
