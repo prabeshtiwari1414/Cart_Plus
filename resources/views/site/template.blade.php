@@ -13,14 +13,16 @@
         <link rel="stylesheet" href="{{ asset('style/css/style.css') }}">
     </head>
     <body>
-      <nav class="upper_nav ">
-        <div class="location"><span><i class="fa-solid fa-location-dot fa-flip"></i>Pokhara-8,Srijana Chowk</span></div>
-        <div class="tele"><span><i class="fa-solid fa-phone fa-bounce"></i>+977 061-538358</span></div>
-        <div class="d-flex flex-row-reverse icons ">
+      <nav class="upper_nav d-flex ">
+        <div class="upper_nav_contains d-flex justify-content-between">
+        <div class="location "><span><i class="fa-solid fa-location-dot fa-flip"></i>Pokhara-8,Srijana Chowk</span></div>
+        <div class="tele "><span><i class="fa-solid fa-phone fa-bounce"></i>+977 061-538358</span></div>
+        <div class="icons d-flex ">
           <div class="facebook icon"><span><i class="fa-brands fa-facebook" ></i></span></div>
           <div class="instagram icon"><span><i class="fa-brands fa-instagram" ></i></span></div>
           <div class="linkedin icon"><span><i class="fa-brands fa-linkedin" ></i></span></div>
           <div class="cart icon"><span><i class="fa-solid fa-cart-shopping" ></i></span></div>
+        </div>
         </div>
       </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
