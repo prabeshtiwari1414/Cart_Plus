@@ -13,14 +13,55 @@
         <link rel="stylesheet" href="{{ asset('style/css/style.css') }}">
     </head>
     <body>
-      <section class="first">header <img src="{{ asset('style/image/cartplus.png') }}" alt="logo"></section>
+      <section class="header">
+      <nav class="upper_nav d-flex ">
+        <div class="upper_nav_contains d-flex justify-content-between">
+        <div class="location "><span><i class="fa-solid fa-location-dot fa-flip"></i>Pokhara-8,Srijana Chowk</span></div>
+        <div class="tele "><span><i class="fa-solid fa-phone fa-bounce"></i>+977 061-538358</span></div>
+        <div class="icons d-flex ">
+          <div class="facebook icon"><span><i class="fa-brands fa-facebook" ></i></span></div>
+          <div class="instagram icon"><span><i class="fa-brands fa-instagram" ></i></span></div>
+          <div class="linkedin icon"><span><i class="fa-brands fa-linkedin" ></i></span></div>
+          <div class="cart icon"><span><i class="fa-solid fa-cart-shopping" ></i></span></div>
+        </div>
+        </div>
+      </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="{{ asset('style/image/cartplus.png') }}" alt="Logo" height="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+              <a class="nav-link " href="{{ route('user.home') }}">Home </a>
+              
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('user.about') }}">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="{{ route('user.gallery') }}" >
+              Gallery
+            </a>
+        </li>
+       
+        </ul>
+         <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+      </section>
       <section class="second">
-        @yield('xyz')
+        @yield('middlesection')
       </section>
       <section class="third">footer</section>
         <script src ="{{asset('style/js/jquery.js')}}"></script>
         <script src="{{ asset('style/bootstrap/bootstrap.js') }}"></script>
-
 <script src="{{ asset('style/fontawersome/all.js') }}"></script>
 
 <script src="{{ asset('style/js/script.js') }}"></script>

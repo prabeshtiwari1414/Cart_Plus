@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [SiteController::class, 'getTemplate'])->name('getTemplate');
-Route::get('/home', [SiteController::class, 'getHome'])->name('getHome');
-Route::get('/about', [SiteController::class, 'getAbout'])->name('getAbout');
+
+Route::get('/template', [SiteController::class, 'getTemplate'])->name('getTemplate');
+Route::get('/', [SiteController::class, 'getHome'])->name('user.home');
+Route::get('/about', [SiteController::class, 'getAbout'])->name('user.about');
+Route::get('/galleries', [SiteController::class, 'getGallery'])->name('user.gallery');

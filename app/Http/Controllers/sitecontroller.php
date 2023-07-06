@@ -19,4 +19,7 @@ class SiteController extends Controller
     {
         return view('site.about');
     }
+    public function getGallery(){
+        return view('site.galleries');
+    }
 }
