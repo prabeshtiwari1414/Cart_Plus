@@ -19,3 +19,7 @@ Route::get('/template', [SiteController::class, 'getTemplate'])->name('getTempla
 Route::get('/', [SiteController::class, 'getHome'])->name('user.home');
 Route::get('/about', [SiteController::class, 'getAbout'])->name('user.about');
 Route::get('/galleries', [SiteController::class, 'getGallery'])->name('user.gallery');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
