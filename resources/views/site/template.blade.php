@@ -13,24 +13,25 @@
         <link rel="stylesheet" href="{{ asset('style/css/style.css') }}">
     </head>
     <body>
+        <div class="upper_nav bg-success">
         <div class="container bg-success text-light">
           <div class="row">
-            <div class="col-9">
+            <div class="col-6">
               <div class="row">
-                <div class="col-4 ">
+                <div class="col-6 ">
                   <div class="location "><span><i class="fa-solid fa-location-dot fa-flip"></i>Pokhara-8,Srijana Chowk</span></div>
                   
                 </div>
-                <div class="col-3 t">
+                <div class="col-6 t">
                   <div class="tele "><span><i class="fa-solid fa-phone fa-bounce"></i>+977 061-538358</span></div>
 
                 </div>
               </div>
             </div>
-            <div class="col-3 ">
+            <div class="col-6 ">
               <div class="row">
-                <div class="col-2"></div>
-                <div class="col-10">
+                <div class="col-8"></div>
+                <div class="col-4">
                 <div class="icons d-flex ">
                   <div class="facebook icon"><span><i class="fa-brands fa-facebook text-light"  ></i></span></div>
                   <div class="instagram icon"><span><i class="fa-brands fa-instagram  text-light"  ></i></span></div>
@@ -41,6 +42,7 @@
         </div>
             </div>
           </div>
+        </div>
         </div>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
@@ -90,33 +92,27 @@
         <div class="row">
           <!--Grid column-->
           <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">FOOTER CONTENT</h5>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestiae modi cum ipsam ad, illo possimus laborum ut
-              reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
-              Reiciendis assumenda iusto sapiente inventore animi?
-            </p>
+          <h5 class="text-uppercase">Cart_Plus</h5> 
+          <a href="#!"><img src="{{ asset('style/image/cartplus.png') }}" height="75%" alt="Logo"></a>
           </div>
           <!--Grid column-->
 
           <!--Grid column-->
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">Support</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="#!" class="text-white text-decoration-none">Payment</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="#!" class="text-white text-decoration-none">Shipping</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+                <a href="#!" class="text-white text-decoration-none">Cancellation & Returns</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="#!" class="text-white text-decoration-none">FAQ</a>
               </li>
             </ul>
           </div>
@@ -124,20 +120,20 @@
 
           <!--Grid column-->
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">Services</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="#!" class="text-white text-decoration-none">Men's Clothing</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="#!" class="text-white text-decoration-none">Woman's Clothing</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+                <a href="#!" class="text-white text-decoration-none">Kid's Clothing</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="#!" class="text-white text-decoration-none">Other Different Clothes (According to your order)</a>
               </li>
             </ul>
           </div>
@@ -145,41 +141,39 @@
 
           <!--Grid column-->
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">head office</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="#!" class="text-white text-decoration-none"><i class="fa-solid fa-location-dot "></i> Pokhara-8,Srijana Chowk</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="#!" class="text-white text-decoration-none"><i class="fa-solid fa-tty "></i> +977 061-538358</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+                <a href="#!" class="text-white text-decoration-none"><i class="fa-solid fa-phone "></i> 9876543210</a>
               </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
+   
             </ul>
           </div>
           <!--Grid column-->
 
           <!--Grid column-->
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">office location</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="https://www.google.com/maps/@28.2111605,83.9811568,21z?entry=ttu" target="_blank" class="text-white text-decoration-none">Pokhara</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="#!" class="text-white text-decoration-none">Kathmandu(Opening soon)</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+                <a href="#!" class="text-white text-decoration-none">Butwal(Opening soon)</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="#!" class="text-white text-decoration-none">Nepaljung(Opening soon)</a>
               </li>
             </ul>
           </div>
@@ -266,7 +260,7 @@
       © 2023 Copyright:
       <a class="text-white" href="#"
          >prabeshhtiwari.com.np</a
-        >
+        > <span>All Right Reserved | Design by Cart_Plus</span>
     </div>
     <!-- Copyright -->
   </footer>

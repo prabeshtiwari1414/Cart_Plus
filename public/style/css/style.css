@@ -3,14 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.upper_nav {
-    background-color: green;
-    display: flex;
-    color: white;
-}
-.upper_nav_contains {
-    width: 100%;
+.container {
+    margin: 0px, -20px;
 }
 .location,
 .tele {
