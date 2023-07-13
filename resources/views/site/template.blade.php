@@ -34,7 +34,7 @@
                     <div class=" d-flex justify-content-center align-items-center position-absolute top-0 end-0">
                         <section class="">
                             <a href="{{ route('register') }}">
-                                <button type="button" class="btn btn-outline-light btn-rounded me-3 my-3 hover-success">
+                                <button type="button" class="btn btn-outline-light btn-rounded me-3 my-3 ">
                                     Sign up!
                                 </button>
                             </a>
@@ -53,7 +53,7 @@
     </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="--bs-bg-opacity: .7;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="{{ asset('style/image/cartplus.png') }}" alt="Logo"
                     height="100px"></a>

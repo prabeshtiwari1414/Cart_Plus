@@ -15,20 +15,7 @@
     @extends('site.template')
     @section('middlesection')
     <p>Home Page</p>
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <span class="text-danger" style="font-family: 'Rye'; font-size:100px;">F</span><span
-                    style="font-size:50px;">ASHION
-                </span> &nbsp;
-                <span class="text-danger" style="font-family: 'Rye'; font-size:100px;">H</span>
-                <span style="font-size:50px;">UB</span>
-                <p><span class="text-uppercase" style="letter-spacing: 10px"> shop exclusive clothing </span>
-                </p>
-            </div>
-            <div class="col-6"></div>
-        </div>
-    </div>
+
     @stop
 
 
