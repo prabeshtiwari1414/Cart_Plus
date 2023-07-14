@@ -126,6 +126,10 @@
                         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                             <h5 class="text-uppercase mb-4"><b>get in touch</b></h5>
                             <p>Any question? Let us know in store at Srijana Chowk, Pokhara or call us on 9876543210</p>
+                            <a href="#!" class="text-light"><i class="fa-brands fa-facebook p-3"></i></a>
+                            <a href="#!" class="text-light"><i class="fa-brands fa-instagram p-3"></i></a>
+                            <a href="#!" class="text-light"><i class="fa-brands fa-pinterest-p p-3"></i></a>
+
                         </div>
                         <!--Grid column-->
 
@@ -136,7 +140,9 @@
                             <div class=" form-white mb-4">
                                 <input type="email" placeholder="yourmail@example.com" id="form5Example2"
                                     class="form-control" />
-                                <label class="form-label" for="form5Example2"></label>
+                                <form class="d-flex" role="search">
+                                    <button class="btn btn-outline-light m-3" type="submit">Summit</button>
+                                </form>
                             </div>
 
                             <button type="submit" class="btn btn-outline-white btn-block">Subscribe</button>
