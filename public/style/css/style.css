@@ -3,31 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.location,
-.tele {
-    margin: 10px;
-    padding: 10px;
-}
-
-.icon {
-    margin: 10px;
-    padding: 10px;
-    border: solid 2px;
-    border-radius: 10px;
-    background-color: #198754;
-}
-.icon:hover {
-    border: solid white 2px;
-    background-color: #dc7537;
-    border-radius: 10px;
-    transition: 1s;
-}
-.icon li:hover {
-    color: green;
-}
-
-.navbar {
-    position: sticky;
-    top: 0;
+a {
+    text-decoration: none;
 }
