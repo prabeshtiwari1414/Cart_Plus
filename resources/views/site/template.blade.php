@@ -51,11 +51,20 @@
                             <a class="nav-link " href="{{ route('user.home') }}">Home </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link " href="{{ route('user.shop') }}">Shop </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="{{ route('user.features') }}">Features </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="{{ route('user.blog') }}">Blog </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ route('user.about') }}">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link " href="{{ route('user.gallery') }}">
-                                Gallery
+                            <a class="nav-link " href="{{ route('user.contact') }}">
+                                Contact
                             </a>
                         </li>
                     </ul>
@@ -63,6 +72,12 @@
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
+                    <div class="icons d-flex p-2">
+                        <div class="icon"> <a href="#!" class="text-success"><i
+                                    class="p-2 fa-solid fa-cart-shopping"></i></a></div>
+                        <div class="icon"><a href="#!" class="text-success"><i class="p-2 fa-regular fa-heart"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -156,7 +171,7 @@
                 <!-- Copyright -->
                 <div class="text-center p-3">
                     © 2023 Copyright:
-                    <a class="text-white" href="https://parbeshtiwari.com/">Parbeshtiwari.com</a>
+                    <a class="text-white" href="https://parbeshtiwari.com/" target="_blank">Parbeshtiwari.com</a>
                 </div>
                 <!-- Copyright -->
             </footer>

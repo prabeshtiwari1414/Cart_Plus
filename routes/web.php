@@ -18,7 +18,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/template', [SiteController::class, 'getTemplate'])->name('getTemplate');
 Route::get('/', [SiteController::class, 'getHome'])->name('user.home');
 Route::get('/about', [SiteController::class, 'getAbout'])->name('user.about');
-Route::get('/galleries', [SiteController::class, 'getGallery'])->name('user.gallery');
+Route::get('/contact', [SiteController::class, 'getContact'])->name('user.contact');
+Route::get('/features', [SiteController::class, 'getFeatures'])->name('user.features');
+Route::get('/blog', [SiteController::class, 'getBlog'])->name('user.blog');
+Route::get('/shop', [SiteController::class, 'getShop'])->name('user.shop');
 
 Auth::routes();
 
