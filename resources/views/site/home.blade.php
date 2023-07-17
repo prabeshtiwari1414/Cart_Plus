@@ -15,21 +15,25 @@
     @extends('site.template')
     @section('middlesection')
     <p>Home Page</p>
-    <div class="container">
+    <div class="container ">
         <div class="row">
-            <div class="col-6"></div>
-            <div class="col-6"></div>
+            <div class="col-6 ">
+                <div class="container>
+                </div>
+            </div>
+            <div class=" col-6">
+                </div>
+            </div>
         </div>
-    </div>
-    @stop
+        @stop
 
 
-    <script src="{{asset('style/js/jquery.js')}}"></script>
-    <script src="{{ asset('style/bootstrap/bootstrap.js') }}"></script>
+        <script src="{{asset('style/js/jquery.js')}}"></script>
+        <script src="{{ asset('style/bootstrap/bootstrap.js') }}"></script>
 
-    <script src="{{ asset('style/fontawersome/all.js') }}"></script>
+        <script src="{{ asset('style/fontawersome/all.js') }}"></script>
 
-    <script src="{{ asset('style/js/script.js') }}"></script>
+        <script src="{{ asset('style/js/script.js') }}"></script>
 </body>
 
 </html>
