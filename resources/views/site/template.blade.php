@@ -153,14 +153,15 @@
                             <h5 class="text-uppercase mb-4"><b>newsletter</b></h5>
 
                             <div class=" form-white mb-4">
-                                <input type="email" placeholder="yourmail@example.com" id="form5Example2"
-                                    class="form-control" />
-                                <form class="d-flex" role="search">
+                                <form method="POST" action="{{route('postLettermail') }} " enctype="multipart/form-data"
+                                    role="search">
+                                    @csrf
+                                    <input type="email" placeholder="yourmail@example.com" id="form5Example2"
+                                        class="form-control" name="lettermail" /> <br>
                                     <button class="btn btn-outline-light m-3" type="submit">Summit</button>
                                 </form>
                             </div>
 
-                            <button type="submit" class="btn btn-outline-white btn-block">Subscribe</button>
                         </div>
                         <!--Grid column-->
                     </div>

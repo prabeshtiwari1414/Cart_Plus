@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\SiteController;
+use App\Http\Controllers\LettermailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +27,5 @@ Route::get('/shop', [SiteController::class, 'getShop'])->name('user.shop');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/lettermail', [LettermailController::class, 'getLettermailController'])->name('getLettermail');
+Route::post('/addlettermail', [LettermailController::class, 'postLettermailController'])->name('postLettermail');
