@@ -9,6 +9,9 @@
 
 <body>
     @extends('site.template')
+    @php
+    $activePage="user.features";
+    @endphp
     @section('middlesection')
     <p>Features Page</p>
     @stop

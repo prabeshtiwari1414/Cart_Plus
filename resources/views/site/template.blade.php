@@ -37,6 +37,7 @@
         </div>
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="--bs-bg-opacity: .7;">
+
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="{{ asset('style/image/cartplus.png') }}" alt="Logo"
                         height="100px"></a>
@@ -47,23 +48,30 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                         <li class="nav-item">
-                            <a class="nav-link " href="{{ route('user.home') }}">Home </a>
+                            <a class="nav-link {{ $activePage == 'user.home' ? 'active ' : '' }}"
+                                href="{{ route('user.home') }}">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="{{ route('user.shop') }}">Shop </a>
+                            <a class="nav-link {{ $activePage == 'user.shop' ? 'active ' : '' }}"
+                                href="{{ route('user.shop') }}">Shop </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="{{ route('user.features') }}">Features </a>
+                            <a class="nav-link {{ $activePage == 'user.features' ? 'active ' : '' }}"
+                                href="{{ route('user.features') }}">Features </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="{{ route('user.blog') }}">Blog </a>
+                            <a class="nav-link {{ $activePage == 'user.blog' ? 'active ' : '' }}"
+                                href="{{ route('user.blog') }}">Blog </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('user.about') }}">About</a>
+                            <a class="nav-link {{ $activePage == 'user.about' ? 'active ' : '' }}"
+                                href="{{ route('user.about') }}">About</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link " href="{{ route('user.contact') }}">
+                            <a class="nav-link {{ $activePage == 'user.contact' ? 'active ' : '' }}"
+                                href="{{ route('user.contact') }}">
                                 Contact
                             </a>
                         </li>
@@ -98,18 +106,18 @@
                         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                             <h5 class="text-uppercase mb-4"><b>category</b></h5>
 
-                            <ul class="list-unstyled mb-4">
+                            <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!" class="text-light">Women</a>
+                                    <a href="#!" class="text-secondary hover-effect-white ">Women</a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-light">Men</a>
+                                    <a href="#!" class="text-secondary hover-effect-white">Men</a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-light">Shoes</a>
+                                    <a href="#!" class="text-secondary hover-effect-white">Shoes</a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-light">Watches</a>
+                                    <a href="#!" class="text-secondary hover-effect-white">Watches</a>
                                 </li>
                             </ul>
                         </div>
@@ -121,16 +129,16 @@
 
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!" class="text-light">Track Order</a>
+                                    <a href="#!" class="text-secondary hover-effect-white">Track Order</a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-light"> Returns</a>
+                                    <a href="#!" class="text-secondary hover-effect-white"> Returns</a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-light"> Shipping</a>
+                                    <a href="#!" class="text-secondary hover-effect-white"> Shipping</a>
                                 </li>
                                 <li>
-                                    <a href="#!" class="text-light"> FAQs</a>
+                                    <a href="#!" class="text-secondary hover-effect-white"> FAQs</a>
                                 </li>
 
                             </ul>
@@ -140,10 +148,14 @@
                         <!--Grid column-->
                         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                             <h5 class="text-uppercase mb-4"><b>get in touch</b></h5>
-                            <p>Any question? Let us know in store at Srijana Chowk, Pokhara or call us on 9876543210</p>
-                            <a href="#!" class="text-light"><i class="fa-brands fa-facebook p-3"></i></a>
-                            <a href="#!" class="text-light"><i class="fa-brands fa-instagram p-3"></i></a>
-                            <a href="#!" class="text-light"><i class="fa-brands fa-pinterest-p p-3"></i></a>
+                            <p class="text-light">Any question? Let us know in store at Srijana Chowk, Pokhara or
+                                call us on 9876543210</p>
+                            <a href="#!" class="text-secondary hover-effect-white"><i
+                                    class="fa-brands fa-facebook p-3"></i></a>
+                            <a href="#!" class="text-secondary hover-effect-white"><i
+                                    class="fa-brands fa-instagram p-3"></i></a>
+                            <a href="#!" class="text-secondary hover-effect-white"><i
+                                    class="fa-brands fa-pinterest-p p-3"></i></a>
 
                         </div>
                         <!--Grid column-->

@@ -13,6 +13,9 @@
 
 <body>
     @extends('site.template')
+    @php
+    $activePage="user.home";
+    @endphp
     @section('middlesection')
     <p>Home Page</p>
     <div class="container ">

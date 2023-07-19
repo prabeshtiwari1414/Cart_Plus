@@ -9,6 +9,9 @@
 
 <body>
     @extends('site.template')
+    @php
+    $activePage="user.blog";
+    @endphp
     @section('middlesection')
     <p>Blog Page</p>
     @stop

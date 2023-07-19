@@ -6,3 +6,18 @@
 a {
     text-decoration: none;
 }
+ul li a.active {
+    color: #198754 !important;
+    text-decoration: underline;
+}
+
+.hover-effect-white:hover {
+    color: white !important;
+    transition: 0.6s;
+    text-decoration: underline;
+}
+.hover-effect-black:hover {
+    color: black !important;
+    transition: 0.6s;
+    text-decoration: underline;
+}

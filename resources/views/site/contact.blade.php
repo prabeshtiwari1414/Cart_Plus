@@ -9,6 +9,9 @@
 
 <body>
     @extends('site.template')
+    @php
+    $activePage="user.contact";
+    @endphp
     @section('middlesection')
     <p>Contact Page</p>
     @stop
