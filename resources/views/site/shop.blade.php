@@ -30,12 +30,15 @@
     <div class="container">
         <div class="row">
             <div class="col-3 img">
-                <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
-                <a href="#!">
-                    <div class="middle">
-                        <div class="text">Quick View</div>
-                    </div>
-                </a>
+
+                <div class="image">
+                    <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
+                    <a href="#!">
+                        <div class="middle">
+                            <div class="text">Quick View</div>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="col-3 img">
                 <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
