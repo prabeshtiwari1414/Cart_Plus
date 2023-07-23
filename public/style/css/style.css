@@ -29,7 +29,18 @@ ul li a.active {
     height: 100%;
 }
 .img {
+    margin-bottom: 75px;
     position: relative;
+}
+.namelike .like {
+    position: absolute;
+    bottom: -25px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.img p {
+    color: grey;
 }
 .middle {
     transition: 0.5s ease;

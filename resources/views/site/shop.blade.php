@@ -38,64 +38,142 @@
                             <div class="text">Quick View</div>
                         </div>
                     </a>
+                    <div class="namelike d-flex">
+                        <div class="nameprice">
+                            <p>Esprit Ruffle Shirt </p>
+                            <p>$16.05</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
+                    </div>
                 </div>
             </div>
             <div class="col-3 img">
-                <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
-                <a href="#!">
-                    <div class="middle">
-                        <div class="text">Quick View</div>
+
+                <div class="image">
+                    <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
+                    <a href="#!">
+                        <div class="middle">
+                            <div class="text">Quick View</div>
+                        </div>
+                    </a>
+                    <div class="namelike d-flex">
+                        <div class="nameprice">
+                            <p>Esprit Ruffle Shirt </p>
+                            <p>$16.05</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-3 img">
-                <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
-                <a href="#!">
-                    <div class="middle">
-                        <div class="text">Quick View</div>
+
+                <div class="image">
+                    <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
+                    <a href="#!">
+                        <div class="middle">
+                            <div class="text">Quick View</div>
+                        </div>
+                    </a>
+                    <div class="namelike d-flex">
+                        <div class="nameprice">
+                            <p>Esprit Ruffle Shirt </p>
+                            <p>$16.05</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-3 img">
-                <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
-                <a href="#!">
-                    <div class="middle">
-                        <div class="text">Quick View</div>
+
+                <div class="image">
+                    <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
+                    <a href="#!">
+                        <div class="middle">
+                            <div class="text">Quick View</div>
+                        </div>
+                    </a>
+                    <div class="namelike d-flex">
+                        <div class="nameprice">
+                            <p>Esprit Ruffle Shirt </p>
+                            <p>$16.05</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-3 img">
-                <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
-                <a href="#!">
-                    <div class="middle">
-                        <div class="text">Quick View</div>
+
+                <div class="image">
+                    <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
+                    <a href="#!">
+                        <div class="middle">
+                            <div class="text">Quick View</div>
+                        </div>
+                    </a>
+                    <div class="namelike d-flex">
+                        <div class="nameprice">
+                            <p>Esprit Ruffle Shirt </p>
+                            <p>$16.05</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-3 img">
-                <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
-                <a href="#!">
-                    <div class="middle">
-                        <div class="text">Quick View</div>
+
+                <div class="image">
+                    <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
+                    <a href="#!">
+                        <div class="middle">
+                            <div class="text">Quick View</div>
+                        </div>
+                    </a>
+                    <div class="namelike d-flex">
+                        <div class="nameprice">
+                            <p>Esprit Ruffle Shirt </p>
+                            <p>$16.05</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-3 img">
-                <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
-                <a href="#!">
-                    <div class="middle">
-                        <div class="text">Quick View</div>
+
+                <div class="image">
+                    <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
+                    <a href="#!">
+                        <div class="middle">
+                            <div class="text">Quick View</div>
+                        </div>
+                    </a>
+                    <div class="namelike d-flex">
+                        <div class="nameprice">
+                            <p>Esprit Ruffle Shirt </p>
+                            <p>$16.05</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-3 img">
-                <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
-                <a href="#!">
-                    <div class="middle">
-                        <div class="text">Quick View</div>
+
+                <div class="image">
+                    <img src="{{ asset('style/image/jacket.webp') }}" alt="Avatar" class="image">
+                    <a href="#!">
+                        <div class="middle">
+                            <div class="text">Quick View</div>
+                        </div>
+                    </a>
+                    <div class="namelike d-flex">
+                        <div class="nameprice">
+                            <p>Esprit Ruffle Shirt </p>
+                            <p>$16.05</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
                     </div>
-                </a>
+                </div>
             </div>
+
         </div>
     </div>
     </div>
