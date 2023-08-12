@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\LettermailController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -17,12 +19,12 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/template', [SiteController::class, 'getTemplate'])->name('getTemplate');
-Route::get('/', [SiteController::class, 'getHome'])->name('user.home');
-Route::get('/about', [SiteController::class, 'getAbout'])->name('user.about');
+Route::get('/', [SiteController::class, 'getHome'])->name('userhome');
+Route::get('/about', [SiteController::class, 'getAbout'])->name('userabout');
 Route::get('/contact', [SiteController::class, 'getContact'])->name('user.contact');
-Route::get('/features', [SiteController::class, 'getFeatures'])->name('user.features');
-Route::get('/blog', [SiteController::class, 'getBlog'])->name('user.blog');
-Route::get('/shop', [SiteController::class, 'getShop'])->name('user.shop');
+Route::get('/features', [SiteController::class, 'getFeatures'])->name('userfeatures');
+Route::get('/blog', [SiteController::class, 'getBlog'])->name('userblog');
+Route::get('/shop', [SiteController::class, 'getShop'])->name('usershop');
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -81,3 +83,8 @@ Route::group(['middleware' => 'auth'], function () {
 		return view('pages.laravel-examples.user-profile');
 	})->name('user-profile');
 });
+
+
+
+Route::get('/addproduct', [ProductController::class, 'getproduct'])->middleware('auth')->name('getproduct');
+Route::post('/addpostproduct', [ProductController::class, 'postAddProduct'])->middleware('auth')->name('postAddProduct');

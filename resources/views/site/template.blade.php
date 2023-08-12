@@ -51,27 +51,27 @@
 
                         <li class="nav-item">
                             <a class="nav-link {{ $activePage == 'user.home' ? 'active ' : '' }}"
-                                href="{{ route('user.home') }}">Home </a>
+                                href="{{ route('userhome') }}">Home </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ $activePage == 'user.shop' ? 'active ' : '' }}"
-                                href="{{ route('user.shop') }}">Shop </a>
+                                href="{{ route('usershop') }}">Shop </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ $activePage == 'user.features' ? 'active ' : '' }}"
-                                href="{{ route('user.features') }}">Features </a>
+                                href="{{ route('userfeatures') }}">Features </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ $activePage == 'user.blog' ? 'active ' : '' }}"
-                                href="{{ route('user.blog') }}">Blog </a>
+                                href="{{ route('userblog') }}">Blog </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ $activePage == 'user.about' ? 'active ' : '' }}"
-                                href="{{ route('user.about') }}">About</a>
+                                href="{{ route('userabout') }}">About</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link {{ $activePage == 'user.contact' ? 'active ' : '' }}"
-                                href="{{ route('user.contact') }}">
+                                href="{{ route('usercontact') }}">
                                 Contact
                             </a>
                         </li>
@@ -89,6 +89,7 @@
                 </div>
             </div>
         </nav>
+        
     </section>
     <section class="second">
         @yield('middlesection')
