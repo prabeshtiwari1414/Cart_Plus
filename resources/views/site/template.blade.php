@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="{{ asset('style/fontawersome/all.css') }}" />
     <link rel="stylesheet" href="{{asset('style/bootstrap/bootstrap.css')}}">
     <link rel="stylesheet" href="{{ asset('style/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{asset('site/css/bootstrap.min.css')}}">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="{{asset('site/css/style.css')}}">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="{{asset('site/css/responsive.css')}}">
+    <!-- fevicon -->
+    <link rel="icon" href="{{asset('site/images/fevicon.png')}}" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="{{asset('site/css/jquery.mCustomScrollbar.min.css')}}">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="{{asset('site/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('site/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -39,8 +59,8 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="--bs-bg-opacity: .7;">
 
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="{{ asset('style/image/cartplus.png') }}" alt="Logo"
-                        height="100px"></a>
+                <a class="navbar-brand" href="#"><img src="{{ asset('style/image/cartplus.png') }}" 
+                       style="height: 130px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -92,11 +112,13 @@
         
     </section>
     <section class="second">
+      
         @yield('middlesection')
+        
     </section>
-    <section class="third bg-dark text-light">
+    
         <!-- Remove the container if you want to extend the Footer to full width. -->
-        <div class="container my-">
+        <div class="container bg-dark text-light">
 
             <footer class="text-center text-lg-start pt-4">
                 <!-- Grid container -->
@@ -192,7 +214,33 @@
 
         </div>
         <!-- End of .container -->
-    </section>
+    
+    <script src="{{asset('site/js/jquery.min.js')}}"></script>
+    <script src="{{asset('site/js/popper.min.js')}}"></script>
+    <script src="{{asset('site/js/bootstrap.bundle.min.js')}}">
+    </script>
+    <script src="{{asset('site/js/jquery-3.0.0.min.js')}}"></script>
+    <script src="{{asset('site/js/plugin.js')}}"></script>
+    <!-- sidebar -->
+    <script src="{{asset('site/js/jquery.mCustomScrollbar.concat.min.js')}}">
+    </script>
+    <script src="{{asset('site/js/custom.js')}}"></script>
+    <!-- javascript -->
+    <script src="{{asset('site/js/owl.carousel.js')}}"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js">
+    </script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript">
+    </script>
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width =
+            "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
     <script src="{{asset('style/js/jquery.js')}}"></script>
     <script src="{{ asset('style/bootstrap/bootstrap.js') }}"></script>
     <script src="{{ asset('style/fontawersome/all.js') }}"></script>

@@ -4,6 +4,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
 
 class SiteController extends Controller
 {
@@ -24,7 +25,11 @@ class SiteController extends Controller
     }
     
     public function getShop(){
-        return view('site.shop');
+        $data= [
+            'products' => Product::where('status', 'show')->latest()->limit(8)->get(),
+            
+        ];
+        return view('site.shop', $data);
     }
     public function getFeatures(){
         return view('site.features');

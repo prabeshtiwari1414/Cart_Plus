@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/template', [SiteController::class, 'getTemplate'])->name('getTemplate');
 Route::get('/', [SiteController::class, 'getHome'])->name('userhome');
 Route::get('/about', [SiteController::class, 'getAbout'])->name('userabout');
-Route::get('/contact', [SiteController::class, 'getContact'])->name('user.contact');
+Route::get('/contact', [SiteController::class, 'getContact'])->name('usercontact');
 Route::get('/features', [SiteController::class, 'getFeatures'])->name('userfeatures');
 Route::get('/blog', [SiteController::class, 'getBlog'])->name('userblog');
 Route::get('/shop', [SiteController::class, 'getShop'])->name('usershop');
@@ -36,7 +36,6 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SessionsController;
             
 
-Route::get('/', function () {return redirect('sign-in');})->middleware('guest');
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth')->name('dashboard');
 Route::get('sign-up', [RegisterController::class, 'create'])->middleware('guest')->name('register');
 Route::post('sign-up', [RegisterController::class, 'store'])->middleware('guest');
@@ -88,3 +87,7 @@ Route::group(['middleware' => 'auth'], function () {
 
 Route::get('/addproduct', [ProductController::class, 'getproduct'])->middleware('auth')->name('getproduct');
 Route::post('/addpostproduct', [ProductController::class, 'postAddProduct'])->middleware('auth')->name('postAddProduct');
+Route::get('/manageproduct', [ProductController::class, 'getManageProduct'])->middleware('auth')->name('getManageProduct');
+Route::get('/product/manage/delete/{product}', [ProductController::class, 'getDeleteProduct'])->middleware('auth')->name('getDeleteProduct');
+Route::get('/product/manage/edit/{product}', [ProductController::class, 'getEditProduct'])->middleware('auth')->name('getEditProduct');
+Route::post('/product/manage/edited/{product}', [ProductController::class, 'postEditProduct'])->middleware('auth')->name('postEditProduct');
