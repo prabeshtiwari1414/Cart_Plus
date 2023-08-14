@@ -18,18 +18,18 @@
             </div>
         </div>
      </div>
-        <div class="container">
+    <div class="container">
         
-        <div class="product_section_2 layout_padding">
+        <div>
             <div class="row">
                 @foreach($products as $product)
                 <div class="col-lg-3 col-sm-6">
                     <div class="product_box">
-                        <h4 class="bursh_text">{{$product->product_title}}</h4>
+                        <h4 class="bursh_text text-success">{{$product->product_title}}</h4>
                         <p class="lorem_text">{{$product->product_details}} </p>
                         <img src="{{ asset('site/uploads/product/'.$product->photo) }}" >
 
-                        <div class="btn_main">
+                        <div class="bg-success btn_main">
                             <div class="buy_bt">
                                 <ul>
                                     <li><a href="#" class="p-2">Add Cart </a>
@@ -47,5 +47,6 @@
                 @endforeach
             </div>
         </div>
+    </div>
     
-    @stop
+    @endsection

@@ -36,7 +36,7 @@
         <div class="navbar navbar-expand-lg  bg-success text-light fs-6">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">Free shipping for standard order over NPR 15,000</div>
+                    <div class="col-12">Free shipping for standard order over NPR 3,000</div>
                 </div>
                 <div class="col-6">
                     <div class="row">
@@ -54,7 +54,7 @@
                 </div>
             </div>
         </div>
-        </div>
+        
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="--bs-bg-opacity: .7;">
 
@@ -111,11 +111,11 @@
         </nav>
         
     </section>
-    <section class="second">
       
-        @yield('middlesection')
+        <section class="middlesection mb-3">
+            @yield('middlesection')
+        </section>
         
-    </section>
     
         <!-- Remove the container if you want to extend the Footer to full width. -->
         <div class="container bg-dark text-light">
@@ -214,6 +214,7 @@
 
         </div>
         <!-- End of .container -->
+        
     
     <script src="{{asset('site/js/jquery.min.js')}}"></script>
     <script src="{{asset('site/js/popper.min.js')}}"></script>

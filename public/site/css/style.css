@@ -482,7 +482,7 @@ button {
 }
 
 .buy_bt li a:hover {
-    background-color: #f5ddb6;
+    background-color: orange;
     color: #ffffff;
 }
 
